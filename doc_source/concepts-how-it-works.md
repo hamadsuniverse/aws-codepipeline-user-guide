@@ -59,7 +59,7 @@ You might want to use the stop and abandon option in the case where you have a c
 
 ## How executions are processed in a pipeline<a name="concepts-how-it-works-executions"></a>
 
-An execution consists of a set of changes picked up and processed by the execution\. Pipelines can process multiple executions at the same time\. Each execution is run through the pipeline separately\. The pipeline processes each execution in order and might supersede an earlier execution with a later one\. The following rules are used to process executions in a pipeline\.
+An execution consists of a set of changes picked up and processed by the pipeline\. Pipelines can process multiple executions at the same time\. Each execution is run through the pipeline separately\. The pipeline processes each execution in order and might supersede an earlier execution with a later one\. The following rules are used to process executions in a pipeline\.
 
 **Rule 1: Stages are locked when an execution is being processed**
 
