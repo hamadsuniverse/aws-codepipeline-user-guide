@@ -14,7 +14,7 @@ For example, a developer pushes a fix to the web application's index page, and t
 
 1. The next action in the **Prod Stage** is a unit test project created in CodeBuild and configured as a test action in the pipeline\.
 
-1. The unit tested code is next worked on by a deploy action in the **Prod Stage** that deploys the application to a production environment\. After the deploy action completes successfully, the final action in the stage is an integration testing project created in CodeBuild and configured as a test action in the pipeline\. The test action calls to shell scripts that install and run a test tool, such as a link checker, on the web application\. After successful completion, the output is a built web application and a set of test results\.
+1. The unit tested code is next worked on by a deploy action in the **Prod Stage** that deploys the application to a production environment\. After the deploy action completes successfully, the final action in the stage is an integration testing project created in CodeBuild and configured as a test action in the pipeline\. The test action calls shell scripts that install and run a test tool, such as a link checker, on the web application\. After successful completion, the output is a built web application and a set of test results\.
 
 Developers can add actions to the pipeline that deploy or further test the application after it is built and tested for each change\.
 
