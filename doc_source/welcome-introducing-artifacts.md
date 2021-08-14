@@ -12,7 +12,7 @@ For example:
 
 1. The output artifact from the previous step \(the built application\) is ingested as an input artifact to the **Deploy** stage, such as staging or production environments in the AWS Cloud\. You can deploy applications to a deployment fleet, or you can deploy container\-based applications to tasks running in ECS clusters\.
 
-When you create or edit an action, you designate the input and output artifact or artifacts for the action\. In this example for a two\-stage pipeline with a **Source** and **Deploy** stage, in **Edit Action**, you choose the artifact name of the source action for the input artifact for the deploy action\.
+When you create or edit an action, you designate the input and output artifact or artifacts for the action\. In this example for a two\-stage pipeline with a **Source** and **Deploy** stage, in **Edit Action**, you choose the artifact name of the source action as the input artifact for the deploy action\.
 
 ![\[A high-level artifacts workflow in CodePipeline.\]](http://docs.aws.amazon.com/codepipeline/latest/userguide/images/example-artifact-dropdown.png)![\[A high-level artifacts workflow in CodePipeline.\]](http://docs.aws.amazon.com/codepipeline/latest/userguide/)![\[A high-level artifacts workflow in CodePipeline.\]](http://docs.aws.amazon.com/codepipeline/latest/userguide/)
 
